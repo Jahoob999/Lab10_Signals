@@ -37,6 +37,7 @@
 *.hex
 signal_segfault
 signal_handler
+signal_alarm
 
 # Debug files
 *.dSYM/
