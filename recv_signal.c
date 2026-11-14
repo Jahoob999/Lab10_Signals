@@ -14,7 +14,9 @@
  
  void handle_sigusr1(int signal, siginfo_t *siginfo, void *notused)
  {
-    printf("Recieved value %d from process %d\n", siginfo->si_value.sival_int, siginfo->si_pid);
+   printf("Recieved value %d from process %d\n", 
+      siginfo->si_value.sival_int, siginfo->si_pid);
+   exit(0);
  }
 
  int main(void)

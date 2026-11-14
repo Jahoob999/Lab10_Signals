@@ -21,6 +21,7 @@
  {
     int pid = getpid();
     printf("Process %d received SIGUSR1\n", pid);
+    exit(0);
  }
 
  int main(void)
